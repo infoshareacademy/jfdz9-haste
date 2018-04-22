@@ -4,11 +4,13 @@ body {
 .banner {
     background-image: url("img/pic-background.jpeg");
     width: 780px;
+    height: 520px;
 }
 
 .banner-tekst {
+    font-family: 'Black Han Sans', sans-serif;
+    color: #fff;
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
-    height: 520px;
 }
