@@ -79,3 +79,10 @@ body {                     /*nie uzywaj body*/
 .link-newsletter:visited {
     color: #000;
 }
+
+.stopa
+{
+    background-color: 820000; /* kolor tła */
+    color: firebrick; /* kolor tekstu */
+    text-align: right; /* wyrównanie tekstu w kontenerze do prawej */
+}
