@@ -66,6 +66,17 @@ body {                     /*nie uzywaj body*/
     margin: 0;
 }
 
+.form-email {
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-email label,input {
+    margin: 0;
+    padding: 0;
+}
+
 .link-newsletter {
     font-size: 20px;
     text-transform: uppercase;
