@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .lewaKol{
     font-size: 48px;
 }
@@ -32,35 +31,36 @@
 
 .active {
     background-color: #4CAF50;
-=======
-body {
+}
+
+body {                     /*nie uzywaj body*/
     text-align: center;
 }
 
 .banner {
     background-image: url("img/pic-background.jpeg");
     background-position: bottom;
-    width: 780px;
-    height: 520px;
-    margin: 20px auto 0;
+    max-width: 100%;
+    height: 40rem;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .banner-tekst {
-    display: flex;
-    justify-content: center;
     font-family: 'Black Han Sans', sans-serif;
     color: #fff;
     font-size: 40px;
     text-transform: uppercase;
-    padding: 260px 0 0 0;
     margin: 0;
 }
 
 .banner-opis {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    font-family: arial;
+    font-size: 20px;font-family: arial;
     color: #fff;
     padding: 0;
     margin: 0;
@@ -78,5 +78,10 @@ body {
 
 .link-newsletter:visited {
     color: #000;
->>>>>>> 4fff0147a947ec835636f03a4de9744cec52ff58
+}
+
+@media screen and (min-width: 1px) and (max-width: 495px){
+    .banner {
+        margin-top: 100px;
+    }
 }
