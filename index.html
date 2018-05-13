@@ -8,7 +8,7 @@
 =======
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
->>>>>>> 4fff0147a947ec835636f03a4de9744cec52ff58
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
 <nav id="nawigacja">
@@ -24,7 +24,9 @@
         <p class="banner-tekst">Rozpocznij trening z nami</p>
         <p class="banner-opis">Dwa zdania opisu</p>
 </div>
-    <a class="link-newsletter" href="#email">Newsletter</a>
+<div class="container-link-newsletter">
+        <button class="link-newsletter" href="#email">Newsletter</button>
+</div>
 <article class="infoMain">
     <section class="lewaKol">
         <p class="lewaKol">teksttekts</p>
@@ -33,10 +35,12 @@
         <p class="prawaKol">teksttekts</p>
     </section>
 </article>
-<div class="form-email">
-    <label for="email">E-mail: </label>
-    <input type="text" id="email">
-    <input type="submit" value="Wyślij">
+<div class="form-container">
+    <div class="form-group">
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" class="form-control">
+        <input type="submit" value="Wyślij">
+    </div>
 </div>
 <aside class="social"></aside>
 <footer class="stopa"></footer>

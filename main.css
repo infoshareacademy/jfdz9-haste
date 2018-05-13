@@ -41,6 +41,7 @@ body {                     /*nie uzywaj body*/
     background-image: url("img/pic-background.jpeg");
     background-position: bottom;
     max-width: 100%;
+    max-height: 40rem;
     height: 40rem;
     margin-top: 50px;
     margin-left: auto;
@@ -57,6 +58,7 @@ body {                     /*nie uzywaj body*/
     font-size: 40px;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 
 .banner-opis {
@@ -66,18 +68,49 @@ body {                     /*nie uzywaj body*/
     margin: 0;
 }
 
+.container-link-newsletter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .link-newsletter {
+    width: 500px;
+    height: 40px;
     font-size: 20px;
+    font-weight: 100;
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    background-color: #41A1C9;
+
+    margin: 0 auto;
+    letter-spacing: 4px;
+    border: none;
 }
 
 .link-newsletter:hover {
-    color: #fff; /* not working*/
+    background-color: #0FA1C9;
+    text-decoration: none;
 }
 
 .link-newsletter:visited {
     color: #000;
+}
+
+.form-group {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-group label {
+    margin-bottom: 0;
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1px) and (max-width: 495px){
