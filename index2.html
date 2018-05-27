@@ -3,6 +3,7 @@
 <head>
 
     <link rel="stylesheet" href="main2.css">
+    <script src="main.js"></script>
 </head>
 <body>
 
@@ -11,11 +12,19 @@
     <p>Ogolnie dobry obrazek na praktycnie cala szerokosc tej strony</p>
 </div>
 
-<div class="topnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#" style="float:right">Link</a>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="Menus()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<div style="padding-left:16px">
+    <h2>Responsive Topnav Example</h2>
+    <p>Resize the browser window to see how it works.</p>
 </div>
 
 <div class="row">
