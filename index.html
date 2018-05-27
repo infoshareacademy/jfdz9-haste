@@ -1,42 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+<meta charset="UTF-8">
+
+    <link rel="stylesheet" href="123.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
 </head>
 <body>
-<nav id="nawigacja">
-    <img id="logo" src="" alt="Haste">
-    <ul id="menu">
-        <li class="button"><a href="#sek1">Sekcja1</a></li>
-        <li class="button"><a href="#sek2">Sekcja2</a></li>
-        <li class="button"><a href="#sek3">Sekcja3</a></li>
-        <li class="button"><a href="#sek4">Sekcja4</a></li>
-    </ul>
-</nav>
-<div class="banner">
-        <p class="banner-tekst">Rozpocznij trening z nami</p>
-        <p class="banner-opis">Dwa zdania opisu</p>
-</div>
-    <a class="link-newsletter" href="#email">Newsletter</a>
-<article class="infoMain">
-    <section class="lewaKol">
-        <p class="lewaKol">teksttekts</p>
-    </section>
-    <section class="prawaKol">
-        <p class="prawaKol">teksttekts</p>
-    </section>
-</article>
-<div class="form-email">
-    <label for="email">E-mail: </label>
-    <input type="text" id="email">
-    <input type="submit" value="Wyślij">
-</div>
-<aside class="social"></aside>
-<footer class="stopa"></footer>
-</body>
 
+<div class="banner">
+    <h1>FZ9HE-1 ???</h1>
+    <p class="banner-tekst">Rozpocznij trening z nami</p>
+    <p class="banner-opis">Dwa zdania opisu</p>
+</div>
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="Menus()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+<div class="row">
+    <div class="product-info-general">
+        <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+    </div>
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+
+
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <div class="form-group">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" class="form-control">
+                <input type="submit" value="Wyślij">
+            </div>
+        </div>
+    </div>
+    <div class="product-info-general">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/11.jpg" alt="P Kieno" style="width:100%">
+                        <div class="container">
+                            <h2>Paweł Kieno</h2>
+                            <p class="title">CEO &amp; Founder</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>example@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/22.jpg" alt="P Gdaniec" style="width:100%">
+                        <div class="container">
+                            <h2>Paweł Gdaniec</h2>
+                            <p class="title">Art Director</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>example@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/33.jpg" alt="P Zboiński" style="width:100%">
+                        <div class="container">
+                            <h2>Paweł Zboiński</h2>
+                            <p class="title">Designer</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>example@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="container">
+                        <img src="img/44.jpg" alt="M Nagórka" style="width:100%">
+                        <div class="container">
+                            <h2>Marcin Nagórka</h2>
+                            <p class="title">Designer</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>example@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+
+</body>
 </html>
