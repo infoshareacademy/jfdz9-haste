@@ -5,22 +5,21 @@
 
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 </head>
 <body>
 
-<div class="banner">
+<div class="banner" id="home">
     <h1>FZ9HE-1 ???</h1>
     <p class="banner-tekst">Rozpocznij trening z nami</p>
     <p class="banner-opis">Dwa zdania opisu</p>
 </div>
 
-<div class="topnav" id="myTopnav">
+<div class="topnav responsive" id="myTopnav">
     <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#prodinfo">O produkcie</a>
+    <a href="#form">Formularz</a>
+    <a href="#about">O nas</a>
     <a href="javascript:void(0);" class="icon" onclick="Menus()">
         <i class="fa fa-bars"></i>
     </a>
@@ -28,26 +27,25 @@
 
 
 <div class="row">
-    <div class="product-info-general">
+    <div class="product-info-general" id="prodinfo">
         <div class="card">
-            <h2>TITLE HEADING</h2>
+            <h2>O produkcie</h2>
             <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <div class="prodinfo" style="height:200px;">
+                <p>Tu powinnien znaleźć się tekst opisujący co odwalamy, ale nie wiem co odwalamy więc lipa</p>
+            </div>
         </div>
     </div>
-    <div class="leftcolumn">
+    <div class="leftcolumn" id="form">
         <div class="card">
-            <h2>TITLE HEADING</h2>
+            <h2>Formularz</h2>
             <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <div class="prodinfo" style="height:200px;">
+                <p>Tu powinnien znaleźć się tekst opisujący dlaczego odwalamy i coś o formularzu oraz gierce czy coś</p>
+            </div>
         </div>
-
-
     </div>
+
     <div class="rightcolumn">
         <div class="card">
             <div class="form-group">
@@ -55,9 +53,14 @@
                 <input type="email" id="email" class="form-control">
                 <input type="submit" value="Wyślij">
             </div>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="prodinfo" style="height:200px;">
+                <p>cos tu tez powinno byc</p>
+            </div>
         </div>
     </div>
-    <div class="product-info-general">
+
+    <div class="product-info-general" id="about">
         <div class="card">
             <div class="row">
                 <div class="col-md-6 col-lg-3">
