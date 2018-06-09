@@ -113,10 +113,10 @@ body {
 }
 
 .form-control {
-    margin-bottom: 6px;
+    margin-bottom: 26px;
 }
 
-.leftcolumn {
+.product-info-sub {
     float: left;
     width: 75%;
 }
@@ -126,13 +126,12 @@ body {
     width: 100%;
 }
 
-.rightcolumn {
+.product-info-form {
     float: left;
     width: 25%;
     padding-left: 20px;
 }
 
-/* Fake image */
 .prodinfo {
     color: #f2f2f2;
     background-color: #820000;
@@ -144,6 +143,20 @@ body {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardimages {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rowimages {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
 }
 
 .row:after {
@@ -153,16 +166,17 @@ body {
 }
 
 .footer {
+    color: #f2f2f2;
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #000000;
     margin-top: 20px;
 }
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
+    .product-info-sub, .product-info-form {
         width: 100%;
         padding: 0;
     }
@@ -175,26 +189,6 @@ body {
         width: 100%;
         position: fixed;
     }
-}
-
-
-
-.column {
-    float: left;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-@media screen and (max-width: 1980px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
