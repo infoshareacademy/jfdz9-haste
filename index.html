@@ -1,114 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
 
-<div class="banner">
-    <h1>FZ9HE-1 ???</h1>
-    <p class="banner-tekst">Rozpocznij trening z nami</p>
-    <p class="banner-opis">Dwa zdania opisu</p>
+<div class="banner" id="home">
+    <h1>_____</h1>
+    <p class="banner-tekst">Każdy gdzieś zaczynał, Ty zacznij z nami swój pierwszy trening.</p>
 </div>
 
-<div class="topnav" id="myTopnav">
+<div class="topnav responsive" id="myTopnav">
     <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="Menus()">
-        <i class="fa fa-bars"></i>
-    </a>
+    <a href="#prodinfo">O produkcie</a>
+    <a href="#form">Formularz</a>
+    <a href="#about">O nas</a>
+    <img class="logo" src="img/164292905656c475ff18e38.png"/>
 </div>
 
 
 <div class="row">
-    <div class="product-info-general">
+    <div class="product-info-general" id="prodinfo">
         <div class="card">
-            <h2>TITLE HEADING</h2>
+            <h2>O produkcie</h2>
             <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <div class="prodinfo" style="height:200px; max-height:200px;">
+                <p>Tu powinnien znaleźć się tekst opisujący co odwalamy, ale nie wiem co odwalamy więc lipa</p>
+            </div>
         </div>
     </div>
-    <div class="leftcolumn">
+</div>
+
+<div class="rowform">
+    <div class="product-info-sub">
         <div class="card">
-            <h2>TITLE HEADING</h2>
+            <h2>Formularz</h2>
             <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
-
-
-    </div>
-    <div class="rightcolumn">
-        <div class="card">
-            <div class="form-group">
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" class="form-control">
-                <input type="submit" value="Wyślij">
+            <div class="prodinfo" style="height:162px; max-height: 162px;">
+                <p>Tu powinnien znaleźć się tekst opisujący dlaczego odwalamy i coś o formularzu oraz gierce czy coś</p>
             </div>
         </div>
     </div>
-    <div class="product-info-general">
+
+
+    <div class="product-info-form" id="form">
         <div class="card">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/11.jpg" alt="P Kieno" style="width:100%">
-                        <div class="container">
-                            <h2>Paweł Kieno</h2>
-                            <p class="title">CEO &amp; Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/22.jpg" alt="P Gdaniec" style="width:100%">
-                        <div class="container">
-                            <h2>Paweł Gdaniec</h2>
-                            <p class="title">Art Director</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="img/33.jpg" alt="P Zboiński" style="width:100%">
-                        <div class="container">
-                            <h2>Paweł Zboiński</h2>
-                            <p class="title">Designer</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="container">
-                        <img src="img/44.jpg" alt="M Nagórka" style="width:100%">
-                        <div class="container">
-                            <h2>Marcin Nagórka</h2>
-                            <p class="title">Designer</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>example@example.com</p>
-                            <p><button class="button">Contact</button></p>
-                        </div>
-                    </div>
-                </div>
+            <form class="form-style-4" action="" method="post">
+                <label for="field1">
+                    <span>Imię</span><input type="text" name="field1" required="true"/>
+                </label>
+                <label for="field2">
+                    <span>Email</span><input type="email" name="field2" required="true"/>
+                </label>
+                <label for="field4">
+                    <span>Wiadomość do nas</span><textarea name="field4" onkeyup="adjust_textarea(this)"
+                                                           required="true"></textarea>
+                </label>
+                <label>
+                    <span>&nbsp;</span><input type="submit" value="Wyślij"/>
+                </label>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="cardimages about" id="about">
+    <h2>O Nas</h2>
+</div>
+<div class="rowimages">
+    <div class="cardimages">
+        <div class="container">
+            <h2>Paweł Kieno</h2>
+            <img src="img/11.jpg" alt="P Kieno">
+            <div class="container-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
+        </div>
+    </div>
+    <div class="cardimages">
+        <div class="container">
+            <h2>Paweł Zboiński</h2>
+            <img src="img/33.jpg" alt="P Zboiński">
+            <div class="container-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
         </div>
     </div>
 </div>
